@@ -1,7 +1,7 @@
 # MarkBot
-## bot-assistant for steam
+## Bot-assistant for steam
 ---
-## travel guide:
+## Travel Guide:
 * [Import block](#Import-Block)
 * [Recognize Text](#Recognize-Text)
 * [Open Steam Account](#Open-Steam-Account)
