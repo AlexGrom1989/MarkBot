@@ -1,6 +1,10 @@
 # MarkBot
 ## bot-assistant for steam
 ---
+## travel guide:
+* [Go To BOTTOM](#BOTTOM)
+* [Import block](#8)
+* 
 ```py
 # DemoMark
 from random import choice
