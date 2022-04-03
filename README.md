@@ -3,7 +3,17 @@
 ---
 ## travel guide:
 * [Import block](#Import-Block)
-* [Recognize Text Block](#Recognize-text)
+* [Recognize Text](#Recognize Text)
+* [Open Steam Account](#Open Steam Account)
+* [Trade Offer](#Trade Offer)
+* [Sale Of Items](#Sale Of Items)
+* [Return Items](#Return Items)
+* [Editting Profile](#Editting Profile)
+* [Delete The Game](#Delete The Game)
+* [Work With Trade Platform](#Work With Trade Platform)
+* [Launch Bot](#Launch Bot)
+* [Greeting](#Greeting)
+* [Command Reading Cycle](#Command Reading Cycle)
 ---
 ### Import Block
 ```py
@@ -14,8 +24,7 @@ from time import sleep
 from data import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-```
-```py
+
 # options = webdriver.ChromeOptions()
 # options.headless = True
 # driver = webdriver.Chrome(options=options)
@@ -41,8 +50,9 @@ def rec_txt():
             continue
     print(recognize_txt)
     # recognize_txt = input()
-
-
+```
+### Open Steam Account
+```py
 # Функция входа в аккаунт Steam
 def confirm_to_steam():
     global driver
@@ -55,8 +65,9 @@ def confirm_to_steam():
     driver.find_element(By.XPATH, '//*[@id="twofactorcode_entry"]').send_keys(input())
     driver.find_element(By.XPATH, '//*[@id="login_twofactorauth_buttonset_entercode"]/div[1]').click()
     sleep(2)
-
-
+```
+### Trade Offer 
+```py
 #  Класс отправки предложения обмена
 class TradeOffer:
     def __init__(self):
@@ -73,8 +84,9 @@ class TradeOffer:
         driver.find_element(By.XPATH,
                             '/html/body/div[1]/div[7]/div[2]/div/div[2]/div[2]/div/div[1]/div[1]/div/span').click()
         print('Choose the recipient.')
-
-
+```
+### Sale Of Items
+```py
 #  Класс продажи вещей
 class SaleOfItems:
     def __init__(self):
@@ -258,8 +270,9 @@ class SaleOfItems:
                 print('This item is unavailable for sale!')
         sleep(2)
         print('All ready!')
-
-
+```
+### Return Items
+```py
 #  Класс снятия лота
 class ReturnItems:
     def __init__(self):
@@ -281,8 +294,9 @@ class ReturnItems:
             except:
                 continue
         print('All ready!')
-
-
+```
+### Editting Profile
+```py
 #  Класс редактирования профлия
 class EditingProfile:
     def __init__(self):
@@ -370,8 +384,9 @@ class EditingProfile:
         command = dict_of_topics[input().lower()]
         command.click()
         self.save()
-
-
+```
+### Delete The Game
+```py
 # Класс удаления игр
 class DelTheGame:
     def __init__(self):
@@ -380,8 +395,9 @@ class DelTheGame:
     def deleting_game(self):
         driver.get('https://help.steampowered.com/ru/')
         print('Be careful when deleting a game from your account!')
-
-
+```
+### Work With Trade Platform
+```py
 # Класс работы с торговой площадкой
 class WorkWithTradePlatform:
     def __init__(self):
@@ -392,8 +408,9 @@ class WorkWithTradePlatform:
         print('Enter the name of the item you want to view: ', end='')
         driver.find_element(By.XPATH, '//*[@id="findItemsSearchBox"]').send_keys(input())
         driver.find_element(By.XPATH, '//*[@id="findItemsSearchSubmit"]').click()
-
-
+```
+### Launch Bot
+```py
 #  Класс запуска
 class LaunchBot(SaleOfItems, ReturnItems, EditingProfile, TradeOffer, WorkWithTradePlatform, DelTheGame):
     pass
@@ -409,8 +426,10 @@ thanks = ['И вам спасибо, вы очень хороший челове
           'Это было не трудно, это по любви.', 'У меня даже заискрило от радости.', 'Вам спасибо. Мы все молодцы.']
 hello_words = ['Привет! А мы не виделись сто лет.',
                'Привет! Как же я вас ждал!', 'Я здесь.', 'Хеллоу.']
-
-
+               
+```
+### Greeting
+```py
 #  Приветствие
 def start_text():
     list_of_sale_com = ['Sell / By quantity', 'Sell / By type / <Type of item>',
@@ -436,7 +455,9 @@ def start_text():
 
 
 start_text()
-
+```
+### Command Reading Cycle
+```py
 bot = LaunchBot()
 while ('exit' not in recognize_txt) and ('выйти' not in recognize_txt):
     try:
