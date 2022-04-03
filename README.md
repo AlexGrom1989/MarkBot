@@ -2,7 +2,7 @@
 ## bot-assistant for steam
 ---
 ## travel guide:
-* [Import block](#Import Block)
+* [Import block](#Import-Block)
 ---
 ###Import Block
 ```py
