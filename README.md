@@ -1,2 +1,2 @@
 # MarkBot
-##bot-assistant for steam
+## bot-assistant for steam
