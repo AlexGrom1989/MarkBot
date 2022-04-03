@@ -16,7 +16,7 @@
 * [Command Reading Cycle](#Command-Reading-Cycle)
 ---
 ### Import Block
-###### [Go To TOP](#TOP)
+###### [go to top](#TOP)
 ```py
 from random import choice
 import speech_recognition as sr
@@ -36,6 +36,7 @@ extreme_price = 40
 wait_for_conf = {}
 ```
 ### Recognize text
+###### [go to top](#TOP)
 ```py
 # Функция распознавания речи
 def rec_txt():
@@ -53,6 +54,7 @@ def rec_txt():
     # recognize_txt = input()
 ```
 ### Open Steam Account
+###### [go to top](#TOP)
 ```py
 # Функция входа в аккаунт Steam
 def confirm_to_steam():
@@ -68,6 +70,7 @@ def confirm_to_steam():
     sleep(2)
 ```
 ### Trade Offer 
+###### [go to top](#TOP)
 ```py
 #  Класс отправки предложения обмена
 class TradeOffer:
@@ -87,6 +90,7 @@ class TradeOffer:
         print('Choose the recipient.')
 ```
 ### Sale Of Items
+###### [go to top](#TOP)
 ```py
 #  Класс продажи вещей
 class SaleOfItems:
@@ -273,6 +277,7 @@ class SaleOfItems:
         print('All ready!')
 ```
 ### Return Items
+###### [go to top](#TOP)
 ```py
 #  Класс снятия лота
 class ReturnItems:
@@ -297,6 +302,7 @@ class ReturnItems:
         print('All ready!')
 ```
 ### Editting Profile
+###### [go to top](#TOP)
 ```py
 #  Класс редактирования профлия
 class EditingProfile:
@@ -387,6 +393,7 @@ class EditingProfile:
         self.save()
 ```
 ### Delete The Game
+###### [go to top](#TOP)
 ```py
 # Класс удаления игр
 class DelTheGame:
@@ -398,6 +405,7 @@ class DelTheGame:
         print('Be careful when deleting a game from your account!')
 ```
 ### Work With Trade Platform
+###### [go to top](#TOP)
 ```py
 # Класс работы с торговой площадкой
 class WorkWithTradePlatform:
@@ -411,6 +419,7 @@ class WorkWithTradePlatform:
         driver.find_element(By.XPATH, '//*[@id="findItemsSearchSubmit"]').click()
 ```
 ### Launch Bot
+###### [go to top](#TOP)
 ```py
 #  Класс запуска
 class LaunchBot(SaleOfItems, ReturnItems, EditingProfile, TradeOffer, WorkWithTradePlatform, DelTheGame):
@@ -430,6 +439,7 @@ hello_words = ['Привет! А мы не виделись сто лет.',
                
 ```
 ### Greeting
+###### [go to top](#TOP)
 ```py
 #  Приветствие
 def start_text():
@@ -458,6 +468,7 @@ def start_text():
 start_text()
 ```
 ### Command Reading Cycle
+###### [go to top](#TOP)
 ```py
 bot = LaunchBot()
 while ('exit' not in recognize_txt) and ('выйти' not in recognize_txt):
