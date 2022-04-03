@@ -3,17 +3,17 @@
 ---
 ## travel guide:
 * [Import block](#Import-Block)
-* [Recognize Text](#Recognize Text)
-* [Open Steam Account](#Open Steam Account)
-* [Trade Offer](#Trade Offer)
-* [Sale Of Items](#Sale Of Items)
-* [Return Items](#Return Items)
-* [Editting Profile](#Editting Profile)
-* [Delete The Game](#Delete The Game)
-* [Work With Trade Platform](#Work With Trade Platform)
-* [Launch Bot](#Launch Bot)
+* [Recognize Text](#Recognize-Text)
+* [Open Steam Account](#Open-Steam-Account)
+* [Trade Offer](#Trade-Offer)
+* [Sale Of Items](#Sale-Of-Items)
+* [Return Items](#Return-Items)
+* [Editting Profile](#Editting-Profile)
+* [Delete The Game](#Delete-The-Game)
+* [Work With Trade Platform](#Work-With-Trade-Platform)
+* [Launch Bot](#Launch-Bot)
 * [Greeting](#Greeting)
-* [Command Reading Cycle](#Command Reading Cycle)
+* [Command Reading Cycle](#Command-Reading-Cycle)
 ---
 ### Import Block
 ```py
