@@ -2,9 +2,10 @@
 ## bot-assistant for steam
 ---
 ## travel guide:
-* [Import block](#Import-Block)
+* [Import block](#Import Block)
+* [Recognize Text Block](#Recognize text)
 ---
-###Import Block
+### Import Block
 ```py
 from random import choice
 import speech_recognition as sr
@@ -23,8 +24,9 @@ recognize_txt = '_'
 g = 1
 extreme_price = 40
 wait_for_conf = {}
-
-
+```
+### Recognize text
+```py
 # Функция распознавания речи
 def rec_txt():
     global recognize_txt
