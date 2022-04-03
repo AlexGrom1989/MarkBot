@@ -2,8 +2,8 @@
 ## bot-assistant for steam
 ---
 ## travel guide:
-* [Go To BOTTOM](#BOTTOM)
-* [Import block](#8)
+* [Go To BOTTOM](#LOWER)
+* [Import block](#L8)
 * 
 ```py
 # DemoMark
