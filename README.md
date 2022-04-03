@@ -2,8 +2,8 @@
 ## bot-assistant for steam
 ---
 ## travel guide:
-* [Import block](#Import Block)
-* [Recognize Text Block](#Recognize text)
+* [Import block](#Import-Block)
+* [Recognize Text Block](#Recognize-text)
 ---
 ### Import Block
 ```py
