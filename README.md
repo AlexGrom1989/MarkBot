@@ -3,7 +3,7 @@
 ---
 ## travel guide:
 * [Go To BOTTOM](#LOWER)
-* [Import block](https://github.com/AlexGrom1989/MarkBot/edit/main/README#L8)
+* [Import block](#L123)
 * 
 ```py
 # DemoMark
