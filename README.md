@@ -2,11 +2,10 @@
 ## bot-assistant for steam
 ---
 ## travel guide:
-* [Go To BOTTOM](#LOWER)
-* [Import block](#L123)
-* 
+* [Import block](#Import Block)
+---
+###Import Block
 ```py
-# DemoMark
 from random import choice
 import speech_recognition as sr
 from selenium import webdriver
@@ -14,7 +13,8 @@ from time import sleep
 from data import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
+```
+```py
 # options = webdriver.ChromeOptions()
 # options.headless = True
 # driver = webdriver.Chrome(options=options)
