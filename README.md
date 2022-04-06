@@ -494,13 +494,3 @@ while ('exit' not in recognize_txt) and ('выйти' not in recognize_txt):
 ```
 ---
 [Go To TOP](#TOP)
-
-
-
-
-
-
-https://user-images.githubusercontent.com/94692477/162059887-74afac83-b640-4058-8a42-04a5ee15c027.mp4
-
-
-
