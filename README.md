@@ -1,5 +1,5 @@
 # MarkBot
-## Bot-assistant for steam on `Python`
+## Bot-assistant for Steam on `Python`
 ---
 ## Travel Guide:
 * [Import block](#Import-Block)
