@@ -1,6 +1,16 @@
 # MarkBot
 ## Bot-assistant for Steam on `Python`
 
+
+
+
+
+https://user-images.githubusercontent.com/94692477/163620378-c6cad535-3c6e-4570-ae80-3d4fc1bf196b.mov
+
+
+
+
+
 get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
 ---
 ## Travel Guide:
