@@ -1,5 +1,7 @@
 # MarkBot
 ## Bot-assistant for Steam on `Python`
+
+get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
 ---
 ## Travel Guide:
 * [Import block](#Import-Block)
