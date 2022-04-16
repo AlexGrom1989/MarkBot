@@ -1,5 +1,5 @@
 # MarkBot
-## Bot-assistant for Steam on `Python`
+## bot assistant for selling items, editing a profile, sending an exchange offer and many other functions on steam!
 ### Downlaod [video](https://drive.google.com/uc?export=download&id=1eCpSloCEfzLGjPR03kAdA9iHtJgC2T4g) to watch his working
 ### Get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
 ---
