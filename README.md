@@ -1,6 +1,6 @@
 # MarkBot
 ## Bot-assistant for Steam on `Python`
-### view [video](https://drive.google.com/file/d/1eCpSloCEfzLGjPR03kAdA9iHtJgC2T4g/view?usp=sharing)
+### watch [video](https://drive.google.com/file/d/1eCpSloCEfzLGjPR03kAdA9iHtJgC2T4g/view?usp=sharing) of bot's working
 ### get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
 ---
 ## Travel Guide:
