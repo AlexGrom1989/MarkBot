@@ -1,7 +1,7 @@
 # MarkBot
 ## Bot-assistant for Steam on `Python`
-### watch [video](https://drive.google.com/uc?export=download&id=1eCpSloCEfzLGjPR03kAdA9iHtJgC2T4g) of bot's working
-### get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
+### Downlaod [video](https://drive.google.com/uc?export=download&id=1eCpSloCEfzLGjPR03kAdA9iHtJgC2T4g) to watch his working
+### Get [tools and materials](https://github.com/AlexGrom1989/MarkBot/blob/main/Tools%20and%20materials.md)
 ---
 ## Travel Guide:
 * [Import block](#Import-Block)
